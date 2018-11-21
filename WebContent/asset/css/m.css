@@ -1,0 +1,81 @@
+body {
+	padding-top: 70px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.row.content {
+	height: 786px;
+}
+
+.sidenav {
+	padding-top: 20px;
+	background-color: #e0e2e6;
+	height: 100%;
+}
+
+footer {
+	background-color: #555;
+	color: white;
+	padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+	.sidenav {
+		height: auto;
+		padding: 15px;
+	}
+	.row.content {
+		height: auto;
+	}
+}
+
+a {
+	color: gray;
+	font-weight: bold;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 9999 !important;
+}
+
+.affix+.container-fluid {
+	padding-top: 70px;
+}
+
+.border-sach {
+	border: 1px solid #c9c9c9;
+	background-color: #ededef;
+	padding: 1.5%;
+	text-align: center;
+	position: relative;
+}
+
+.border-sach:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	text-align: center;
+}
+
+.card-body {
+	padding-left: 5px;
+	padding-right: 5px;
+	border-bottom: 1px solid #000000;
+}
+.dang-nhap{
+	padding-top: 60px;
+	padding-left: 30%;
+	padding-right: 30%;
+}
+.thanh-tien{
+	position: fixed;
+	width: 23%;
+}
+.category{
+	 position: fixed;
+}
